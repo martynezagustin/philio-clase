@@ -1,0 +1,55 @@
+<div>
+  <h2 class="p-1">¡Envía tu formulario!</h2>
+  <form action="" method="post" class="p-2">
+    <div class="div-ubication">
+      <label for="select-ubication" class="form-label">Elige tu lugar</label>
+      <select
+        class="form-select"
+        id="select-ubication"
+        aria-label="Default select example"
+      >
+        <option selected>Bahía Blanca</option>
+        <option value="1">Otra ubicación</option>
+      </select>
+    </div>
+    <hr>
+    <div class="genre-musical mt-4">
+        <label class="form-label" for="genre-musical">Tu género musical</label>
+        <input class="form-control" type="text" id="genre-musical" placeholder="Escribe tu género musical favorito" aria-label="default input example">
+    </div>
+    <hr>
+    <div class="mt-4">
+        <div>
+            <label class="form-label" for="color-favorite">Elige un color</label>
+        </div>
+        <input type="color" name="client-color" id="color-favorite">
+    </div>
+    <hr>
+    <div class="div-corte mt-4">
+      <label for="select-cut" class="form-label">Elige el corte</label>
+      <select
+        class="form-select"
+        id="select-cut"
+        aria-label="Default select example"
+      >
+        <option selected>Campana</option>
+        <option value="recto">Recto</option>
+        <option value="hacia-adentro">Hacia adentro</option>
+      </select>
+    </div>
+<hr>
+    <div class="div-costuras mt-4">
+      <label for="select-costuras" class="form-label">¿Costuras hacia afuera?</label>
+      
+      <div class="div-costura-si">
+        <label for="costura-si" class="form-label">Si</label>
+        <input type="radio" name="costuras" value="Si" id="costura-si">
+      </div>
+
+      <div class="div-costura-no">
+        <label for="costura-no" class="form-label">No</label>
+        <input type="radio" name="costuras" value="No" id="costura-no">
+      </div>
+    </div>
+  </form>
+</div>

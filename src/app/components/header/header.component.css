@@ -1,0 +1,23 @@
+.navbar-philio{
+    background:#9d9d9c!important;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px solid #021F59;
+}
+.logotype{
+    width: 20%;
+    padding: 0%;
+}
+.nav-link{
+    margin: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: .3s all;
+}
+.nav-link:hover{
+    background-color: #021F59;
+    transform: scale(1.1,1.1);
+    color: white;
+    transition: .4s all;
+}

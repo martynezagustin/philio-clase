@@ -1,0 +1,20 @@
+h2, .form-label, select, option, input[type="text"]{
+    font-family: "Michroma", sans-serif;
+}
+.form-select, input[type="text"]{
+    border: 1px #021F59 solid;
+}
+.form-select{
+    color: white;
+    background-color: #021F59;
+}
+input[type="color"]{
+    border-radius: 10px;
+}
+option{
+    background-color: white;
+    color: #021F59;
+}
+.form-label:hover{
+    color: #021F59;
+}
