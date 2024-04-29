@@ -41,15 +41,22 @@
     <div class="div-costuras mt-4">
       <label for="select-costuras" class="form-label">¿Costuras hacia afuera?</label>
       
-      <div class="div-costura-si">
-        <label for="costura-si" class="form-label">Si</label>
-        <input type="radio" name="costuras" value="Si" id="costura-si">
+      <div class="d-flex">
+        <div class="div-costura-si">
+            <label for="costura-si" class="form-label labels-costuras">Si</label>
+            <input type="radio" name="costuras" value="Si" id="costura-si">
+        </div>
+        
+        <div class="div-costura-no">
+          <label for="costura-no" class="form-label labels-costuras">No</label>
+          <input type="radio" name="costuras" value="No" id="costura-no">
+        </div>
+
       </div>
 
-      <div class="div-costura-no">
-        <label for="costura-no" class="form-label">No</label>
-        <input type="radio" name="costuras" value="No" id="costura-no">
-      </div>
+    </div>
+    <div class="div-submit-form">
+      <input type="submit" class="button-submit" value="Enviar">
     </div>
   </form>
 </div>

@@ -15,9 +15,20 @@
     text-align: center;
     transition: .3s all;
 }
+.navbar-toggler{
+    background-color: #fff!important;
+}
 .nav-link:hover{
     background-color: #021F59;
     transform: scale(1.1,1.1);
     color: white;
     transition: .4s all;
+}
+@media screen and (max-width: 992px){
+    .nav-link:hover{
+        background-color: none;
+        transform: scale(1,1);
+        color: none;
+        transition: none;
+    }   
 }

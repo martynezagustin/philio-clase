@@ -1,4 +1,4 @@
-h2, .form-label, select, option, input[type="text"]{
+h2, .form-label, select, option, input[type="text"],input[type="submit"]{
     font-family: "Michroma", sans-serif;
 }
 .form-select, input[type="text"]{
@@ -7,6 +7,13 @@ h2, .form-label, select, option, input[type="text"]{
 .form-select{
     color: white;
     background-color: #021F59;
+}
+.button-submit{
+    background-color: #021F59;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
 }
 input[type="color"]{
     border-radius: 10px;
@@ -17,4 +24,7 @@ option{
 }
 .form-label:hover{
     color: #021F59;
+}
+.labels-costuras{
+    padding: 10px;
 }
